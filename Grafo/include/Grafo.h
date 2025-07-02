@@ -1,14 +1,17 @@
+// Grafo.h
 #ifndef GRAFO_H
 #define GRAFO_H
+
 #include <set>
 #include "No.h"
 #include <iostream>
 #include <vector>
 #include <list>
 #include <map>
-
+#include <string>
 
 using namespace std;
+
 class Grafo {
 public:
     Grafo(bool direcionado, bool ponderado_aresta, bool ponderado_vertice);
@@ -33,20 +36,15 @@ public:
     No* getNo(char id);
     void printGrafo();
 
-
-    int ordem=0;
+    int ordem = 0;
     bool in_direcionado;
     bool in_ponderado_aresta;
     bool in_ponderado_vertice;
-    //vector<No*> lista_adj;
     map<char, list<pair<char, int>>> adj;
     map<char, int> pesosVertices;
-    bool existeVertice(char id);  // Verifica se um vértice existe
-
-
-
+    bool existeVertice(char id);  // Verifica se um vÃ©rtice existe
 };
 
+#endif // GRAFO_H
 
 
-#endif //GRAFO_H
