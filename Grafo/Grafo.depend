@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1749499933 source:c:\users\joao\downloads\grafo\main.cpp
+	<iostream>
+	"Gerenciador.h"
+
+1749499933 c:\users\joao\downloads\grafo\include\gerenciador.h
+	<iostream>
+	"Grafo.h"
+	<algorithm>
+
+1749499933 c:\users\joao\downloads\grafo\include\grafo.h
+	"No.h"
+	<iostream>
+	<vector>
+
+1749499933 c:\users\joao\downloads\grafo\include\no.h
+	<string>
+	<vector>
+	"Aresta.h"
+
+1749499708 c:\users\joao\downloads\grafo\include\aresta.h
+
+1749499933 source:c:\users\joao\downloads\grafo\src\aresta.cpp
+
+1749499933 source:c:\users\joao\downloads\grafo\src\gerenciador.cpp
+	"Gerenciador.h"
+	<fstream>
+
+1749499933 source:c:\users\joao\downloads\grafo\src\grafo.cpp
+	"Grafo.h"
+
+1749499765 source:c:\users\joao\downloads\grafo\src\no.cpp
+	"No.h"
+
+1749695988 source:c:\users\joao\desktop\grafo\main.cpp
+	<iostream>
+	"Gerenciador.h"
+	<vector>
+	<unordered_map>
+	<string>
+	<sstream>
+
+1749499933 c:\users\joao\desktop\grafo\include\gerenciador.h
+	<iostream>
+	"Grafo.h"
+	<algorithm>
+
+1750106658 c:\users\joao\desktop\grafo\include\grafo.h
+	<set>
+	"No.h"
+	<iostream>
+	<vector>
+	<list>
+	<map>
+
+1749693508 c:\users\joao\desktop\grafo\include\no.h
+	<string>
+	<vector>
+	"Aresta.h"
+
+1749693508 c:\users\joao\desktop\grafo\include\aresta.h
+
+1749686924 source:c:\users\joao\desktop\grafo\src\aresta.cpp
+	"aresta.h"
+
+1750107755 source:c:\users\joao\desktop\grafo\src\gerenciador.cpp
+	"Gerenciador.h"
+	<fstream>
+
+1750106642 source:c:\users\joao\desktop\grafo\src\grafo.cpp
+	"Grafo.h"
+	<set>
+	"No.h"
+	<vector>
+	<list>
+
+1749693721 source:c:\users\joao\desktop\grafo\src\no.cpp
+	"No.h"
+
